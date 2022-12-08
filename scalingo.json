@@ -1,29 +1,44 @@
 {
-    "name": "AsuX Music Bot",
+    "name": "FallenX Music Bot",
     "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
     "keywords": ["AsuX", "AsuX", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "tg-py-calls"],
-    "repository": "https://github.com/Abishnoi69/AsuXMusic",
+    "repository": "https://github.com/ITS-LEGENDX/STYLISH-MUSIC",
   "stack": "container",
     "env": {
         "STRING_SESSION": {
             "description": "ᴘʏʀᴏɢʀᴀᴍ- v1 sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ",
             "required": true,
-            "value": ""
+            "value": "BQBujL6sChs08oRL4B-BiI4ptRvNbHs0bBwkFfzj8tim5BUkSN7pQDWRXRVuyCMw3XdvsosQNyHgxVWAcqyLh4H_tEufsDsZ8Rc4cXXluV2bS3diDNS3BKJUexkNyj4W2JA5QJfkXsgpjjTIJs9ZacfMDLq64Da90UKgL4Gl0DtUzx-NRsTp_DgCbUhet02Y4Dg6TsqmTS5RLSEc1qlFWO4BktDtUUcbuZP_NnMc4S7k8oWRx-Ky4FAweYyxAhhnYsfIquXPWJonuaqijAzk6U5n4TuKADnMN3YorN5szmPQ7lX7F-1tiPkbYM7KIIX9zwtAeBh-cO3rqtLYAHCnKUFoAAAAAVY7TecA"
         },
-        "LOGGER_ID": {
+        "API_ID": {
+            "description": "ur id api id",
+            "required": true,
+            "value": "22286107"
+        },
+        "API_HASH": {
+            "description": "ur id api_hash id",
+            "required": true,
+            "value": "363e6ed3258a6e47ee1e18e0ed1dc5b6"
+        },
+        "MUSIC_BOT_NAME": {
+            "description": "ur musiic bot name",
+            "required": true,
+            "value": "MusicX"
+        },
+        "LOG_GROUP_ID": {
             "description": "ᴄʜᴀᴛ ɪᴅ ᴏғ ᴀ ɢʀᴏᴜᴘ ᴡʜᴇʀᴇ ʏᴏᴜ'ʟʟ ɢᴇᴛ ᴛᴏ ᴋɴᴏᴡ ᴛʜᴀᴛ ʏᴏᴜʀ ʙᴏᴛ ɢᴏᴛ sᴛᴀʀᴛᴇᴅ  -1001376267876",
             "required": true,
-            "value": ""
+            "value": "-1001698718312"
         },
         "OWNER_ID": {
-            "description": "ʏᴏᴜʀ ᴛɢ ɪᴅ",,
+            "description": "ʏᴏᴜʀ ᴛɢ ɪᴅ",
             "required": false,
-            "value": ""
+            "value": "5380004155"
         },
         "MONGO_DB_URI": {
             "description": "ᴀ ᴍᴏɴɢᴏᴅʙ ᴄʟᴏᴜᴅ ᴅᴀᴛᴀʙᴀsᴇ ᴜʀʟ ғʀᴏᴍ cloud.mongodb.com",
             "required": false,
-            "value": "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"
+            "value": "mongodb+srv://danish:danishx@cluster0.v3wpjye.mongodb.net/?retryWrites=true&w=majority"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
